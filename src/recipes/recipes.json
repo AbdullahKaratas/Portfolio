@@ -1,0 +1,144 @@
+{
+  "main": {
+    "recipe": {
+      "asiancuisine": [
+        {
+          "title": "Cheat Ramen",
+          "duration": "45min",
+          "rating": "4",
+          "serves": "4",
+          "imagepath": "/src/assets/Asian-Food/ramen.png",
+          "dateIncluded": "22. Sept. 2022",
+          "smallDescription": "Das ultimative Schummel-Ramen-Rezept. Es ist kein traditionelles Ramen-Rezept, und das soll es auch nicht sein. Es ist viel mehr eine Kombination aus Tahini und Miso.",
+          "ingredients": [
+            {
+              "1": "2 Zehen Knoblauch, geraspelt",
+              "2": "30g Ingwer, geraspelt",
+              "3": "75g Tahini",
+              "4": "100g Miso",
+              "5": "15g (brauner) Zucker",
+              "6": "2 EL Sojasauce",
+              "7": "1/4TL Chilipulver (je nach Bedarf mehr oder weniger)",
+              "8": "1,5 Liter Gemüsebrühe, z.B. von 9 Meals From Anarchy",
+              "9": "2 Pak Choi",
+              "10": "1 bis 2 kleine Dosen Mais",
+              "11": "50g Soja Schnetzel fein, wie z.B. von dm",
+              "12": "4 Zehen Knoblauch, sehr fein gehacket",
+              "13": "4 Frühlingszwiebel",
+              "14": "1/2 EL (braunen) Zucker",
+              "15": "15g Ingwer, geschnitten gehacket",
+              "16": "2 EL Sojasauce",
+              "17": "1 EL Reisessig",
+              "18": "2 EL Sesamsamen"
+            }
+          ],
+          "steps": [
+            {
+              "1": "Flavour Base: Knoblauch und Ingwer reiben und in eine Schüssel geben. Tahini, Miso und Soja Sauce hinzugeben. Zuletzt Zucker und Chilipulver hinzugeben, hier in etwa 1/4 TL",
+              "2": "Ramen-Brühe: Mische die Flavour Base mit 1,5 Liter Gemüsebrühe und bringe Sie zum kochen",
+              "3": "asd"
+            }
+          ]
+        }
+      ],
+      "basics": [
+        {
+          "title": "Gluten-free Yufka",
+          "duration": "10min",
+          "rating": "4",
+          "serves": "1",
+          "imagepath": "/src/assets/Basics/glutenfreeyufka.png",
+          "dateIncluded": "22. Sept. 2022",
+          "smallDescription": "Ein schneller und einfacher glutenfreier Yufka. Mit der geheimen Zusammensetzung für garantierten Erfolg",
+          "ingredients": [
+            {
+              "1": "50g Glutenfreies Mehl (z.B. Schär, mix it! Universal)",
+              "2": "30g Wasser",
+              "3": "5g Olienöl"
+            }
+          ],
+          "steps": [
+            {
+              "1": "Teig: Mehl, Wasser und Öl in eine Schüssel geben und gut mischen",
+              "2": "Portionieren: Teile den Teig in etwa zwei gleichgroße Anteile",
+              "3": "Ausrollen: Bemehle die Arbeitsplatte und Rolle die Teiglinge dünn aus",
+              "4": "Ausbacken: Nimm eine Pfanne und backe die ausgerollten Teiglinge aus"
+            }
+          ]
+        },
+        {
+          "title": "Lentil patties",
+          "duration": "10min + 90min",
+          "rating": "4",
+          "serves": "4",
+          "imagepath": "/src/assets/Basics/lentis-patties.jpg",
+          "dateIncluded": "11. Nov. 2022",
+          "smallDescription": "Einfache, schnelle und gesunde Linsen patties. Erweiterbar mit Gemüse deiner Wahl. Passt hervorragend zu einem leckeren Salat",
+          "ingredients": [
+            {
+              "1": "200g rote Linsen",
+              "2": "1 Zucchini",
+              "3": "2 Zwiebel",
+              "4": "Salz"
+            }
+          ],
+          "steps": [
+            {
+              "1": "Die Linsen mindestens 90 Minuten lang einweichen.",
+              "2": "Gemüse, in diesem Beispiel Zucchine und Zwiebel in feinen Würfel schneiden. Die Zucchini oder auch die Zwiebel können durch jedes beliebige Gemüse ersetzt werden",
+              "3": "Die eingeweichten Linsen abgießen und pürieren ",
+              "4": "Das Gemüse zu der Linsenmischung geben und gut vermischen. In etwa 1 TL Salz hinzugeben und andere Gewürze nach Geschmack",
+              "5": "Die Linsen in einer beschichteten Pfanne mit Öl anbraten"
+            }
+          ]
+        }
+      ],
+      "indian": [
+        {
+          "title": "Broccoli Pakora Kadhi",
+          "duration": "50min",
+          "rating": "4",
+          "serves": "4",
+          "imagepath": "/src/assets/Indian-Food/broccoli-pakora-kadhi.png",
+          "dateIncluded": "22. Sept. 2022",
+          "smallDescription": "Gesund oder ungesund ist hier die Frage. Ob airfryer, backofen oder in der Fritteuse, mit diesem Gericht wird die Kombination aus Kichererbsen und Brokkoli zum Traum",
+          "ingredients": [
+            {
+              "1": "90g Kichererbsenmehl",
+              "2": "1 EL Reismehl",
+              "3": "1/2 TL Kurkuma gemahlen",
+              "4": "1 TL Garam Masala",
+              "5": "1/2 TL Backpulver",
+              "6": "100g Wasser",
+              "7": "2 EL veganer Joghurt",
+              "8": "1 EL Öl",
+              "9": "70g Brokkoli, fein gehackt",
+              "10": "30g Zwiebel, fein gehackt",
+              "11": "420g veganer Joghurt",
+              "12": "45g Kichererbsenmehl",
+              "13": "1 TL Kurkuma gemahlen",
+              "14": "1TL Salz",
+              "15": "480g Wasser",
+              "16": "1 EL Öl",
+              "17": "1 TL Cumin Samen",
+              "18": "ca 1,3cm langes Ingwerstück",
+              "19": "4 Knoblauchzehen gehackt",
+              "20": "1/3 TL Bockshornkleesamen",
+              "21": "2 getrocknete Chilis oder rote Chiliflocken",
+              "22": "1/4 TL Cayennepfeffer"
+            }
+          ],
+          "steps": [
+            {
+              "1": "Teig: Mehl, Wasser und Öl in eine Schüssel geben und gut mischen",
+              "2": "Portionieren: Teile den Teig in etwa zwei gleichgroße Anteile",
+              "3": "Ausrollen: Bemehle die Arbeitsplatte und Rolle die Teiglinge dünn aus",
+              "4": "Ausbacken: Nimm eine Pfanne und backe die ausgerollten Teiglinge aus"
+            }
+          ]
+        }
+      ]
+    }
+    
+  }
+}
