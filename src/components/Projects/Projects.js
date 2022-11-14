@@ -19,7 +19,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {basiccuisine.map((value, index) => (
             <Col md={4} className="project-card">
-              {console.log(value.imagepath)}
               <ProjectCard
                 imgPath={value.imagepath}
                 isBlog={false}
