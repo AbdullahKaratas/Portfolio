@@ -7,7 +7,7 @@
           "duration": "45min",
           "rating": "4",
           "serves": "4",
-          "imagepath": "Portfolio/images/Asian-Food/ramen.png",
+          "imagepath": "/Portfolio/images/Asian-Food/ramen.png",
           "dateIncluded": "22. Sept. 2022",
           "smallDescription": "Das ultimative Schummel-Ramen-Rezept. Es ist kein traditionelles Ramen-Rezept, und das soll es auch nicht sein. Es ist viel mehr eine Kombination aus Tahini und Miso.",
           "ingredients": [
@@ -47,7 +47,7 @@
           "duration": "10min",
           "rating": "4",
           "serves": "1",
-          "imagepath": "Portfolio/images/Basics/glutenfreeyufka.png",
+          "imagepath": "/Portfolio/images/Basics/glutenfreeyufka.png",
           "dateIncluded": "22. Sept. 2022",
           "smallDescription": "Ein schneller und einfacher glutenfreier Yufka. Mit der geheimen Zusammensetzung für garantierten Erfolg",
           "ingredients": [
@@ -71,7 +71,7 @@
           "duration": "10min + 90min",
           "rating": "4",
           "serves": "4",
-          "imagepath": "Portfolio/images/Basics/lentis-patties.jpg",
+          "imagepath": "/Portfolio/images/Basics/lentis-patties.jpg",
           "dateIncluded": "11. Nov. 2022",
           "smallDescription": "Einfache, schnelle und gesunde Linsen patties. Erweiterbar mit Gemüse deiner Wahl. Passt hervorragend zu einem leckeren Salat",
           "ingredients": [
@@ -99,7 +99,7 @@
           "duration": "50min",
           "rating": "4",
           "serves": "4",
-          "imagepath": "Portfolio/images/Indian-Food/broccoli-pakora-kadhi.png",
+          "imagepath": "/Portfolio/images/Indian-Food/broccoli-pakora-kadhi.png",
           "dateIncluded": "22. Sept. 2022",
           "smallDescription": "Gesund oder ungesund ist hier die Frage. Ob airfryer, backofen oder in der Fritteuse, mit diesem Gericht wird die Kombination aus Kichererbsen und Brokkoli zum Traum",
           "ingredients": [
