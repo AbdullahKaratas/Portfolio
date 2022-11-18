@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useLocation } from 'react-router-dom'
 import Particle from "../Particle";
-import Techstack from "./Techstack";
-import laptopImg from "../../Assets/about.png";
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
