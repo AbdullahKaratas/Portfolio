@@ -24,8 +24,8 @@ function Projects() {
                 isBlog={false}
                 title={value.title}
                 description={value.smallDescription}
-                ghLink="https://github.com/soumyajit4419/Chatify"
-                demoLink="https://chatify-49.web.app/"
+                ingredients={value.ingredients}
+                steps={value.steps}
               />
             </Col>
             ))
@@ -44,8 +44,8 @@ function Projects() {
               isBlog={false}
               title={value.title}
               description={value.smallDescription}
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ingredients={value.ingredients}
+              steps={value.steps}
             />
           </Col>
           ))
@@ -64,8 +64,8 @@ function Projects() {
                   isBlog={false}
                   title={value.title}
                   description={value.smallDescription}
-                  ghLink="https://github.com/soumyajit4419/Chatify"
-                  demoLink="https://chatify-49.web.app/"
+                  ingredients={value.ingredients}
+                  steps={value.steps}
                 />
               </Col>
             ))
