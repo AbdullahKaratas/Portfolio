@@ -137,6 +137,39 @@
             }
           ]
         }
+      ],
+      "spreads": [
+        {
+          "title": "Cashew Aufstrich",
+          "duration": "15min + einweichen über Nacht",
+          "rating": "4",
+          "serves": "4",
+          "imagepath": "/Portfolio/images/Indian-Food/broccoli-pakora-kadhi.png",
+          "dateIncluded": "17. Nov. 2022",
+          "smallDescription": "Cashew in Kombination mit Hefeflocken und wahlweise frischen Kräutern",
+          "ingredients": [
+            {
+              "1": "200g Cashew",
+              "2": "110g Wasser",
+              "3": "2 geh. EL Hefeflocken (10g)",
+              "4": "15g Zitronensaft",
+              "5": "40g neutrales Öl",
+              "6": "1 Knoblauchzehe",
+              "7": "(1/2-3/4) TL Salz",
+              "8": "Etwas Pfeffer (etwa 1 Msp.)",
+              "9": "15g frische Kräuter (z.B. Petersilie, Basilikum oder Koriander). Optional"
+            }
+          ],
+          "steps": [
+            {
+              "1": "Cashewkerne in eine Schüsel geben und mindestens 8 Stunden, am besten über Nacht mit Wasser bedeckt einweichen",
+              "2": "Eingeweiche Cashewkerne abgießen und unter kalten Wasser abspülen",
+              "3": "Abgetropfte Cashewkerne, 110g Wasser, Hefeflocke, Zitronensaft, Öl, Knoblauch, Salz und Pfeffer zugeben und pürieren",
+              "4": "Notfalls Vorgang wiederholen, bis eine homogene Maße entstanden ist",
+              "5": "Optionale Kräuter klein schneiden und zum Cashewaufstrich hinzugeben"
+            }
+          ]
+        }
       ]
     }
     
