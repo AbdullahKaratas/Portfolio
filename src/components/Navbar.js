@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { Link as MUILink } from "@mui/material";
 import { Link } from "react-router-dom";
+import { Typography } from "@mui/material";
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 
 function NavBar() {
@@ -27,8 +30,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/Portfolio" className="d-flex">
-          ♡ U+I+B
+        <Navbar.Brand href="/Portfolio">
+          <FavoriteBorderIcon/> U+I+B
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -42,7 +45,6 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
