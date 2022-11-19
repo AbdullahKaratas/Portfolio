@@ -150,8 +150,38 @@
             "Optionale Kräuter klein schneiden und zum Cashewaufstrich hinzugeben"
           ]
         }
+      ],
+      "italian": [
+        {
+          "title": "Spinat-Sellerie-Risotto",
+          "duration": "15min + einweichen über Nacht",
+          "rating": "5",
+          "serves": "4",
+          "imagepath": "/Portfolio/images/Indian-Food/broccoli-pakora-kadhi.png",
+          "dateIncluded": "17. Nov. 2022",
+          "smallDescription": "Cashew in Kombination mit Hefeflocken und wahlweise frischen Kräutern",
+          "ingredients": [
+            "2 Knoblauchzehen",
+            "1 Zwiebel",
+            "2 Stangen Sellerie",
+            "(2-3)EL Öl",
+            "400g Risotto",
+            "150g Wasser oder weißer veganer Wein",
+            "1000g Gemüsebrühe",
+            "300g Spinat oder Brennnesseln",
+            "30g Misopaste",
+            "1EL Essig",
+            "50g Brot, optional Glutenfrei"
+          ],
+          "steps": [
+            "Einen großen Topf mit Wasser für den Spinat oder die Brennnesseln zum Kochen bringen.",
+            "In der Zwischenzeit den Knoblauch und die Zwiebel schälen und grob hacken, die Selleriestangen putzen und grob hacken. Alles in die kleine Schüssel einer Küchenmaschine geben und fein hacken.",
+            "In einer Pfanne das Rapsöl erhitzen und den Knoblauch, die Zwiebel und den Sellerie mit 1 Teelöffel Salz 10 Minuten lang anschwitzen, bis sie glasig und weich sind. Den Risotto einrühren und 1 Minute weiterbraten. Mit dem Wein oder dem Wasser ablöschen und fast vollständig einkochen lassen, dann zwei Kellen der Brühe hinzufügen. Weiter kochen, bis der Risotto den größten Teil der Brühe aufgesogen hat. Eine weitere Kelle Brühe hinzugeben und so fortfahren, bis die gesamte Brühe aufgebraucht ist (aber 50 ml der Brühe für die Sauce aufheben) und der Risotto gerade weich ist. Wenn der Risotto noch nicht gar genug ist, können ihr jederzeit mit heißem Wasser nachgießen.",
+            "Während der Risotto kocht, die Brennnesseln bzw den Spinat waschen und die Blätter abzupfen (bei Brennnesseln Handschuhe tragen). Das kochende Wasser großzügig würzen (wie für Nudeln) und die Brennnesseln 4 Minuten lang blanchieren oder den Spinat für 30 Sekunden bis maximal 1 Minute. Die Brennnesseln oder den Spinat abtropfen lassen und Miso, Apfelessig, Brot, 1/3 Teelöffel Salz und die reservierten 50 ml der Brühe in den Mixer geben. Zu einer glatten Soße pürieren (Sie können immer noch etwas mehr Brühe oder Wasser hinzufügen, wenn es sich nicht gut mischen lässt).",
+            "Wenn der Risotto gar ist, den Herd ausschalten und die Brennnesselsauce/Spinatsauce untermischen. Sofort servieren"
+          ]
+        }
       ]
-    }
-    
+    }   
   }
 }
