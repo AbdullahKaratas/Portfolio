@@ -1,12 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+import { Container} from "react-bootstrap";
 import recipes from "../../recipes/recipes.json";
-import { Box, Grid, Paper, Typography } from "@mui/material";
-import { styled } from '@mui/material/styles';
-import RecipeReviewCard from './MUICards'
-
+import { Box, Grid, Typography } from "@mui/material";
+import RecipeReviewCard from "./MUICards";
 
 const asiancuisine = recipes.main.recipe.asiancuisine;
 const basiccuisine = recipes.main.recipe.basics;
@@ -14,145 +10,126 @@ const indiancuisine = recipes.main.recipe.indian;
 const italiancuisine = recipes.main.recipe.italian;
 const spreadscuisine = recipes.main.recipe.spreads;
 
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-  alignItems: "center",
-  margin: "auto"
-}));
-
 
 function Projects() {
   return (
-    <Container fluid className="project-section" style={{minHeight: '100vh'}}>
-      <Box >
-      <Grid container
-          spacing={0}
+    <Container fluid className="project-section" style={{ minHeight: "100vh" }}>
+      <Box sx={{marginBottom: "20px"}}>
+        <Typography variant="h4" sx={{marginBottom: "12px"}}>Basics</Typography>
+        <Grid
+          container
           alignItems="center"
-          justifyContent="center">
-        <Grid item xs={4}>
-            <Item>
-            <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
-            </Item>
+          justifyContent="center"
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {basiccuisine.map((value, index) => (
+            <Grid item>
+              <RecipeReviewCard
+                imgPath={value.imagepath}
+                title={value.title}
+                duration={value.duration}
+                shortDiscription={value.smallDescription}
+                ingredients={value.ingredients}
+                steps={value.steps}
+              />
+            </Grid>
+          ))}
         </Grid>
-        <Grid item xs={4}>
-        <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
+      </Box>
+      <Box sx={{marginBottom: "20px"}}>
+        <Typography variant="h4" sx={{marginBottom: "12px"}}>Japan</Typography>
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="center"
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {asiancuisine.map((value, index) => (
+            <Grid item>
+              <RecipeReviewCard
+                imgPath={value.imagepath}
+                title={value.title}
+                duration={value.duration}
+                shortDiscription={value.smallDescription}
+                ingredients={value.ingredients}
+                steps={value.steps}
+              />
+            </Grid>
+          ))}
         </Grid>
-        <Grid item xs={4}>
-        <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
+      </Box>
+      <Box sx={{marginBottom: "20px"}}>
+        <Typography variant="h4" sx={{marginBottom: "12px"}}>Indian</Typography>
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="center"
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {indiancuisine.map((value, index) => (
+            <Grid item>
+              <RecipeReviewCard
+                imgPath={value.imagepath}
+                title={value.title}
+                duration={value.duration}
+                shortDiscription={value.smallDescription}
+                ingredients={value.ingredients}
+                steps={value.steps}
+              />
+            </Grid>
+          ))}
         </Grid>
-        <Grid item xs={8}>
-          <Item>xs=8</Item>
+      </Box>
+      <Box sx={{marginBottom: "20px"}}>
+        <Typography variant="h4" sx={{marginBottom: "12px"}}>Italian</Typography>
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="center"
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {italiancuisine.map((value, index) => (
+            <Grid item>
+              <RecipeReviewCard
+                imgPath={value.imagepath}
+                title={value.title}
+                duration={value.duration}
+                shortDiscription={value.smallDescription}
+                ingredients={value.ingredients}
+                steps={value.steps}
+              />
+            </Grid>
+          ))}
         </Grid>
-      </Grid>
-    </Box>
+      </Box>
+      <Box sx={{marginBottom: "20px"}}>
+        <Typography variant="h4" sx={{marginBottom: "12px"}}>Spreads</Typography>
+        <Grid
+          container
+          alignItems="center"
+          justifyContent="center"
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
+        >
+          {spreadscuisine.map((value, index) => (
+            <Grid item>
+              <RecipeReviewCard
+                imgPath={value.imagepath}
+                title={value.title}
+                duration={value.duration}
+                shortDiscription={value.smallDescription}
+                ingredients={value.ingredients}
+                steps={value.steps}
+              />
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
     </Container>
-
-    // <Container fluid className="project-section">
-    //   {/* <Particle /> */}
-    //   <Container>
-    //     <Typography variant="h4">
-    //       Basics
-    //     </Typography>
-    //     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-    //       {basiccuisine.map((value, index) => (
-    //         <Col md={4} className="project-card">
-    //           <ProjectCard
-    //             imgPath={value.imagepath}
-    //             isBlog={false}
-    //             title={value.title}
-    //             description={value.smallDescription}
-    //             ingredients={value.ingredients}
-    //             steps={value.steps}
-    //           />
-    //         </Col>
-    //         ))
-    //       }
-    //     </Row>
-    //   </Container>
-    //   <Container>
-    //     <Typography variant="h4">
-    //       Asian Food
-    //     </Typography>
-    //     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-    //     {asiancuisine.map((value, index) => (
-    //       <Col md={4} className="project-card">
-    //         <ProjectCard
-    //           imgPath={value.imagepath}
-    //           isBlog={false}
-    //           title={value.title}
-    //           description={value.smallDescription}
-    //           ingredients={value.ingredients}
-    //           steps={value.steps}
-    //         />
-    //       </Col>
-    //       ))
-    //     }
-    //     </Row>
-    //   </Container>
-    //   <Container>
-    //     <Typography variant="h4">
-    //       Indian Food
-    //     </Typography>
-    //     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-    //       {indiancuisine.map((value, index) => (
-    //           <Col md={4} className="project-card">
-    //             <ProjectCard
-    //               imgPath={value.imagepath}
-    //               isBlog={false}
-    //               title={value.title}
-    //               description={value.smallDescription}
-    //               ingredients={value.ingredients}
-    //               steps={value.steps}
-    //             />
-    //           </Col>
-    //         ))
-    //       }
-    //     </Row>
-    //   </Container>
-    //   <Container>
-    //     <Typography variant="h4">
-    //       Italian Food
-    //     </Typography>
-    //     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-    //       {italiancuisine.map((value, index) => (
-    //           <Col md={4} className="project-card">
-    //             <ProjectCard
-    //               imgPath={value.imagepath}
-    //               isBlog={false}
-    //               title={value.title}
-    //               description={value.smallDescription}
-    //               ingredients={value.ingredients}
-    //               steps={value.steps}
-    //             />
-    //           </Col>
-    //         ))
-    //       }
-    //     </Row>
-    //   </Container>
-    //   <Container>
-    //     <Typography variant="h3">
-    //       Spreads
-    //     </Typography>
-    //     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-    //       {spreadscuisine.map((value, index) => (
-    //           <Col md={4} className="project-card">
-    //             <ProjectCard
-    //               imgPath={value.imagepath}
-    //               isBlog={false}
-    //               title={value.title}
-    //               description={value.smallDescription}
-    //               ingredients={value.ingredients}
-    //               steps={value.steps}
-    //             />
-    //           </Col>
-    //         ))
-    //       }
-    //     </Row>
-    //   </Container>
-    // </Container>
   );
 }
 

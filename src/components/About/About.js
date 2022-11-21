@@ -5,15 +5,15 @@ import Particle from "../Particle";
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
+import { Typography } from "@mui/material";
 
 function About(props) {
   const location = useLocation()
   const { ingredients, steps, imgPath } = location.state
-  console.log(ingredients)
   debugger;
   return (
     <Container fluid className="about-section" style={{minHeight: '100vh'}}>
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -24,9 +24,7 @@ function About(props) {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              <strong className="purple">Zutaten</strong>
-            </h1>
+            <Typography variant="h4" sx={{marginBottom: "12px"}}>Zutaten</Typography>
             <List>
               {ingredients.map((x, i) =>
                 <ListItem disablePadding>
@@ -40,12 +38,10 @@ function About(props) {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={imgPath} alt="about" className="img-fluid" />
+            <img src={imgPath} alt="about" style={{borderRadius: '12px', maxWidth: "450px"}} />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          <strong className="purple">Schritte</strong>
-        </h1>
+          <Typography variant="h4" sx={{marginBottom: "12px"}}>Schritte</Typography>
         <List>
           {steps.map((x, i) =>
             <ListItem>

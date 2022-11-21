@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgb(204, 216, 216),
-    rgba(233, 221, 221, 0.904)
+    rgb(226, 229, 229),
+    rgba(214, 114, 0, 0.904)
   );
 
   --image-gradient: linear-gradient(
@@ -28,10 +28,10 @@ button:focus {
   box-shadow: none !important;
 }
 
-.btn-flat {
-  color: #000000 !important;
-  background-color: #f0c170 !important;
-  border-color: #f0c170 !important;
+.btn-primary {
+  color: #fff !important;
+  background-color: #623686 !important;
+  border-color: #623686 !important;
 }
 
 /* --------- */
@@ -525,11 +525,12 @@ button:focus {
   border-radius: 0px !important;
 }
 
-.btn-primary {
-  color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
-}
+/* .btn-primary {
+  color: rgb(16, 16, 16) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  margin-left: auto;
+} */
 
 .btn-primary:hover {
   color: #fff !important;
@@ -539,12 +540,6 @@ button:focus {
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
-}
-.project-heading {
-  color: white !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
 }
 
 /* --------- */
@@ -556,7 +551,6 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
 }
 
 .tech-icons {
