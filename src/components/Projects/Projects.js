@@ -15,29 +15,33 @@ const italiancuisine = recipes.main.recipe.italian;
 const spreadscuisine = recipes.main.recipe.spreads;
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  alignItems: "center",
+  margin: "auto"
 }));
 
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid item xs={8}>
-          <Item>
+    <Container fluid className="project-section" style={{minHeight: '100vh'}}>
+      <Box >
+      <Grid container
+          spacing={0}
+          alignItems="center"
+          justifyContent="center">
+        <Grid item xs={4}>
+            <Item>
             <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
-          </Item>
+            </Item>
         </Grid>
         <Grid item xs={4}>
-          <Item>xs=4</Item>
+        <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
         </Grid>
         <Grid item xs={4}>
-          <Item>xs=4</Item>
+        <RecipeReviewCard imgPath={asiancuisine[0].imagepath} />
         </Grid>
         <Grid item xs={8}>
           <Item>xs=8</Item>
